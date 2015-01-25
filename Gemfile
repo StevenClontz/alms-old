@@ -47,3 +47,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Manage frontend assets
+gem 'bower-rails'
