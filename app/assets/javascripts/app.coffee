@@ -1,0 +1,2 @@
+almsApp = angular.module('alms',[
+])
