@@ -62,3 +62,4 @@ gem 'spring',        group: :development
 
 # Manage frontend assets
 gem 'bower-rails'
+gem 'angular-rails-templates'
