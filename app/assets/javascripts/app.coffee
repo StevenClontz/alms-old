@@ -32,7 +32,9 @@ almsApp = angular.module('alms',[
 almsControllers = angular.module('alms.controllers',[
 ]).controller("HomeController", [
   ->
+    @sections = []
     @foo = 'bar'
+    #FIXME: breaks tests when the function returns an array
 ]).controller("State1Controller", [
   ->
     @foo = 'baz'
