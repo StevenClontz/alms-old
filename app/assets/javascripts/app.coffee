@@ -1,7 +1,8 @@
 almsApp = angular.module('alms',[
-  'templates', # angular-rails-templates
-  'ui.router', # ui-router
-  'alms.controllers', # alms controllers
+  'templates' # angular-rails-templates
+  'ui.router' # ui-router
+  'rails' # angularjs-rails-resource
+  'alms.controllers' # alms controllers
 
 ]).config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) ->
 
